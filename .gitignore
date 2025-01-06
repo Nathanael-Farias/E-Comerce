@@ -1,1 +1,39 @@
-/.vscode
+# Excluir todas as pastas bin e obj em qualquer lugar do projeto
+**/bin/
+**/obj/
+
+# Arquivos gerados automaticamente pelo .NET e Visual Studio
+*.exe
+*.dll
+*.pdb
+*.cache
+*.nuget.*
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos de log
+*.log
+
+# Configurações de depuração
+appsettings.Development.json
+
+# Ignorar repositórios locais de pacotes NuGet
+*.nupkg
+packages/
+
+# Ignorar qualquer pasta Debug ou Release
+**/Debug/
+**/Release/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.class
+*.pyc
