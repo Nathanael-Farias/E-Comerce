@@ -1,11 +1,13 @@
-# Excluir todas as pastas bin e obj em qualquer lugar do projeto
+# Pastas de build e arquivos gerados
 **/bin/
 **/obj/
-# Ignorar arquivos de configuração específicos do usuário
-API/appsettings.json
-API/Properties/launchSettings.json
-API/API.csproj
-API/API.http
+**/Debug/
+**/Release/
+.vscode/
+
+
+
+
 # Arquivos gerados automaticamente pelo .NET e Visual Studio
 *.exe
 *.dll
@@ -20,24 +22,30 @@ API/API.http
 project.lock.json
 project.fragment.lock.json
 
+# Arquivos específicos de configuração do usuário
+API/appsettings.json
+API/Properties/launchSettings.json
+API/API.csproj
+API/API.http
+/Core/Core.csproj
+/Infrastructure/Infrastructure.csproj
+
 # Arquivos de log
 *.log
 
 # Configurações de depuração
 appsettings.Development.json
 
-# Ignorar repositórios locais de pacotes NuGet
+# Repositórios locais de pacotes NuGet
 *.nupkg
 packages/
 
-# Ignorar qualquer pasta Debug ou Release
-**/Debug/
-**/Release/
-
-# Arquivos temporários
+# Arquivos temporários do sistema
 *.tmp
 *.bak
 *.swp
 *.DS_Store
+
+# Arquivos gerados por outros sistemas de desenvolvimento
 *.class
 *.pyc
