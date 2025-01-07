@@ -1,7 +1,11 @@
 # Excluir todas as pastas bin e obj em qualquer lugar do projeto
 **/bin/
 **/obj/
-
+# Ignorar arquivos de configuração específicos do usuário
+API/appsettings.json
+API/Properties/launchSettings.json
+API/API.csproj
+API/API.http
 # Arquivos gerados automaticamente pelo .NET e Visual Studio
 *.exe
 *.dll
