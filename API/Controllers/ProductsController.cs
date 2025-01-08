@@ -1,86 +1,106 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 using Core.Entities;
-using Infrastructure.Data;
+using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController : ControllerBase
+    public class ProductsController(IProductRepository repo) : ControllerBase
     {
-        private readonly StoreContext context;
 
-        public ProductsController(StoreContext context)
-        {
-            this.context = context;
-        }
 
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProduct()
         {
-
-            return await context.Products.ToListAsync();
-
+            return Ok(await repo.GetProductsAsync());
         }
 
-         [HttpGet("{id:int}")]
-         public async Task<ActionResult<Product>> GetProduct(int id)
-         {
-             var product = await context.Products.FindAsync(id);
 
-             if (product == null)
-             return NotFound();
-    
-             return product;
-         }
+
+
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Product>> GetProduct(int id)
+        {
+            var product = await repo.GetProductByIdAsync(id);
+
+            if (product == null)
+                return NotFound($"No product found with ID {id}.");
+
+            return product;
+        }
+
+
+
 
 
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(Product product)
         {
-            context.Products.Add(product);
+            repo.AddProduct(product);
 
-            await context.SaveChangesAsync();
-            return product;
+            if (await repo.SaveChangesAsync())
+            {
+                return CreatedAtAction("GetProduct", new { id = product.Id }, product);
+            }
+            return BadRequest("Failed to create product. Please check the provided data and try again.");
         }
+
+
+
+
 
         [HttpPut("{id:int}")]
         public async Task<ActionResult> UpdateProduct(int id, Product product)
         {
-            if(product.Id != id || !ProductExists(id)) 
-                return BadRequest("Cannot update this product");
+            if (product.Id != id)
+                return BadRequest($"The provided product ID ({product.Id}) does not match the ID in the route ({id}).");
 
-            context.Entry(product).State = EntityState.Modified;
+            if (!ProductExists(id))
+                return BadRequest($"Cannot update product. No product found with ID {id}.");
 
-            await context.SaveChangesAsync(); 
-            return NoContent();
+            repo.UpdateProduct(product);
+
+            if (await repo.SaveChangesAsync())
+            {
+                return NoContent();
+            }
+            return BadRequest("An error occurred while updating the product. Please try again.");
         }
+
+
+
+
 
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> DeleteProduct(int id)
         {
+            var product = await repo.GetProductByIdAsync(id);
 
-            var product = await context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound($"No product found with ID {id}.");
 
-            if(product == null) return NotFound();
+            repo.DeleteProduct(product);
 
-            context.Products.Remove(product);
-            await context.SaveChangesAsync();
-            return NoContent();
-
+            if (await repo.SaveChangesAsync())
+            {
+                return NoContent();
+            }
+            return BadRequest($"Failed to delete the product with ID {id}. Please try again.");
         }
 
-        private bool ProductExists(int id )
+
+
+
+
+        private bool ProductExists(int id)
         {
-            return context.Products.Any(x => x.Id == id);
+            return repo.ProductExists(id);
         }
-
     }
 }
