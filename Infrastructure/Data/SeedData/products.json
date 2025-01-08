@@ -1,0 +1,164 @@
+[
+  {
+    "Name": "RTX 4090 ASUS",
+    "Description": "High-performance graphics card with cutting-edge ray tracing and AI capabilities, designed for ultimate gaming and creative work.",
+    "Price": 6399.96,
+    "PictureUrl": "/images/products/sb-ang1.png",
+    "Type": "Graphics Cards",
+    "Brand": "ASUS",
+    "QuantityInStock": 82
+  },
+  {
+    "Name": "RTX 3080 MSI",
+    "Description": "A powerful GPU delivering stunning visuals and exceptional performance for gamers and creators.",
+    "Price": 2799.96,
+    "PictureUrl": "/images/products/sb-ang2.png",
+    "Type": "Graphics Cards",
+    "Brand": "MSI",
+    "QuantityInStock": 75
+  },
+  {
+    "Name": "AMD Ryzen 9 7950X",
+    "Description": "16-core, 32-thread processor built for demanding workloads and next-gen gaming.",
+    "Price": 3199.96,
+    "PictureUrl": "/images/products/sb-core1.png",
+    "Type": "Processors",
+    "Brand": "AMD",
+    "QuantityInStock": 3
+  },
+  {
+    "Name": "Intel Core i9-13900K",
+    "Description": "13th Gen Intel processor offering unrivaled speed and multitasking performance.",
+    "Price": 2799.96,
+    "PictureUrl": "/images/products/sb-core2.png",
+    "Type": "Processors",
+    "Brand": "Intel",
+    "QuantityInStock": 52
+  },
+  {
+    "Name": "ASUS ROG Strix Z790-E",
+    "Description": "High-end motherboard with advanced features for gaming and overclocking.",
+    "Price": 1999.96,
+    "PictureUrl": "/images/products/sb-react1.png",
+    "Type": "Motherboards",
+    "Brand": "ASUS",
+    "QuantityInStock": 97
+  },
+  {
+    "Name": "MSI MPG B650 Edge",
+    "Description": "Reliable and feature-packed motherboard designed for AMD Ryzen processors.",
+    "Price": 799.96,
+    "PictureUrl": "/images/products/sb-ts1.png",
+    "Type": "Motherboards",
+    "Brand": "MSI",
+    "QuantityInStock": 37
+  },
+  {
+    "Name": "Corsair Vengeance DDR5 32GB",
+    "Description": "High-speed DDR5 memory optimized for gaming and productivity.",
+    "Price": 599.96,
+    "PictureUrl": "/images/products/hat-core1.png",
+    "Type": "Memory",
+    "Brand": "Corsair",
+    "QuantityInStock": 32
+  },
+  {
+    "Name": "G.Skill Trident Z5 RGB 16GB",
+    "Description": "Premium RGB DDR5 RAM with exceptional performance for enthusiasts.",
+    "Price": 519.96,
+    "PictureUrl": "/images/products/hat-react1.png",
+    "Type": "Memory",
+    "Brand": "G.Skill",
+    "QuantityInStock": 6
+  },
+  {
+    "Name": "Samsung 980 Pro 1TB NVMe SSD",
+    "Description": "High-performance SSD with PCIe Gen4 technology for ultra-fast speeds.",
+    "Price": 519.96,
+    "PictureUrl": "/images/products/hat-react2.png",
+    "Type": "Storage",
+    "Brand": "Samsung",
+    "QuantityInStock": 17
+  },
+  {
+    "Name": "WD Black SN850 2TB NVMe SSD",
+    "Description": "Top-tier NVMe SSD for extreme gaming and large storage needs.",
+    "Price": 1199.96,
+    "PictureUrl": "/images/products/glove-code1.png",
+    "Type": "Storage",
+    "Brand": "Western Digital",
+    "QuantityInStock": 74
+  },
+  {
+    "Name": "Seagate Barracuda 4TB HDD",
+    "Description": "Reliable and spacious hard drive for storing massive amounts of data.",
+    "Price": 359.96,
+    "PictureUrl": "/images/products/glove-code2.png",
+    "Type": "Storage",
+    "Brand": "Seagate",
+    "QuantityInStock": 19
+  },
+  {
+    "Name": "Cooler Master Hyper 212",
+    "Description": "Effective and budget-friendly air cooling solution for CPUs.",
+    "Price": 159.96,
+    "PictureUrl": "/images/products/glove-react1.png",
+    "Type": "Cooling Systems",
+    "Brand": "Cooler Master",
+    "QuantityInStock": 77
+  },
+  {
+    "Name": "NZXT Kraken X63",
+    "Description": "Premium liquid cooler with RGB and enhanced performance for high-end builds.",
+    "Price": 799.96,
+    "PictureUrl": "/images/products/glove-react2.png",
+    "Type": "Cooling Systems",
+    "Brand": "NZXT",
+    "QuantityInStock": 45
+  },
+  {
+    "Name": "EVGA SuperNOVA 850W PSU",
+    "Description": "Fully modular power supply delivering efficient and reliable power.",
+    "Price": 599.96,
+    "PictureUrl": "/images/products/boot-redis1.png",
+    "Type": "Power Supplies",
+    "Brand": "EVGA",
+    "QuantityInStock": 49
+  },
+  {
+    "Name": "Corsair RM750x PSU",
+    "Description": "High-quality power supply with 80 PLUS Gold certification.",
+    "Price": 519.96,
+    "PictureUrl": "/images/products/boot-core2.png",
+    "Type": "Power Supplies",
+    "Brand": "Corsair",
+    "QuantityInStock": 28
+  },
+  {
+    "Name": "ASUS TUF Gaming GT501 Case",
+    "Description": "Durable and spacious gaming case with excellent airflow.",
+    "Price": 599.96,
+    "PictureUrl": "/images/products/boot-core1.png",
+    "Type": "Cases",
+    "Brand": "ASUS",
+    "QuantityInStock": 69
+  },
+  {
+    "Name": "NZXT H510 Elite",
+    "Description": "Compact mid-tower case with sleek design and advanced cable management.",
+    "Price": 599.96,
+    "PictureUrl": "/images/products/boot-ang2.png",
+    "Type": "Cases",
+    "Brand": "NZXT",
+    "QuantityInStock": 35
+  },
+  {
+    "Name": "Phanteks Eclipse P500A",
+    "Description": "High-performance case with superior airflow and extensive customization options.",
+    "Price": 599.96,
+    "PictureUrl": "/images/products/boot-ang1.png",
+    "Type": "Cases",
+    "Brand": "Phanteks",
+    "QuantityInStock": 27
+  }
+]
