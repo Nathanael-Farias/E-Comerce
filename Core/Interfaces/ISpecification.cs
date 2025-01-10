@@ -8,6 +8,6 @@ namespace Core.Interfaces
 {
     public interface ISpecification<G>
     {
-        Expression<Func<G, bool>> Criteria { get; }
+        Expression<Func<G, bool>>? Criteria { get; }
     }
 }
