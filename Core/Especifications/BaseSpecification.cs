@@ -7,10 +7,10 @@ using Core.Interfaces;
 
 namespace Core.Especifications
 {
-    public class BaseSpecification<G>(Expression<Func<G, bool>> criteria) : ISpecification<G>
+    public class BaseSpecification<G>(Expression<Func<G, bool>>? criteria) : ISpecification<G>
     {
-      
+      protected BaseSpecification() : this(null) {}
 
-        public Expression<Func<G, bool>> Criteria => criteria;
+        public Expression<Func<G, bool>>? Criteria => criteria;
     }
 }
