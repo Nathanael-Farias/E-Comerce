@@ -11,5 +11,11 @@ namespace Core.Interfaces
         Expression<Func<G, bool>>? Criteria { get; }
         Expression<Func<G, object>>? OrderBy {get; }
         Expression<Func<G, object>>? OrderByDescending {get; }
+        bool IsDistinct {get; }
+    }
+
+    public interface ISpecification<G, GResult> : ISpecification<G>
+    {
+        Expression<Func<G, GResult>>? Select {get; }
     }
 }
