@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Core.Entities;
+using Core.Especifications;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,10 +17,14 @@ namespace API.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProduct(string? brand, 
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand, 
             string? type, string? sort)
         {
-            return Ok(await repo.ListAllAsync());
+            var spec = new ProductSpecification(brand, type);
+
+            var products = await repo.ListAsync(spec);
+
+            return Ok(products);
         }
 
 
