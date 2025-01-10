@@ -25,9 +25,19 @@ namespace Infrastructure.Data
             return await context.Set<G>().FindAsync(id);
         }
 
+        public async Task<G?> GetEntityWithSpec(ISpecification<G> spec)
+        {
+           return await ApplySpecification(spec).FirstOrDefaultAsync();
+        }
+
         public async Task<IReadOnlyList<G>> ListAllAsync()
         {
             return await context.Set<G>().ToListAsync();
+        }
+
+        public async Task<IReadOnlyList<G?>> ListAsync(ISpecification<G> spec)
+        {
+            return await ApplySpecification(spec).ToListAsync();
         }
 
         public void Remove(G entity)
@@ -44,6 +54,12 @@ namespace Infrastructure.Data
         {
             context.Set<G>().Attach(entity);
             context.Entry(entity).State = EntityState.Modified;
+        }
+
+
+        private IQueryable<G> ApplySpecification(ISpecification<G> spec)
+        {
+            return SpecificationEvaluator<G>.GetQuery(context.Set<G>().AsQueryable(), spec);
         }
     }
 }
