@@ -3,7 +3,7 @@
     "Name": "RTX 4090 ASUS",
     "Description": "High-performance graphics card with cutting-edge ray tracing and AI capabilities, designed for ultimate gaming and creative work.",
     "Price": 6399.96,
-    "PictureUrl": "/images/products/sb-ang1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Graphics Cards",
     "Brand": "ASUS",
     "QuantityInStock": 82
@@ -12,7 +12,7 @@
     "Name": "RTX 3080 MSI",
     "Description": "A powerful GPU delivering stunning visuals and exceptional performance for gamers and creators.",
     "Price": 2799.96,
-    "PictureUrl": "/images/products/sb-ang2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Graphics Cards",
     "Brand": "MSI",
     "QuantityInStock": 75
@@ -21,7 +21,7 @@
     "Name": "AMD Ryzen 9 7950X",
     "Description": "16-core, 32-thread processor built for demanding workloads and next-gen gaming.",
     "Price": 3199.96,
-    "PictureUrl": "/images/products/sb-core1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Processors",
     "Brand": "AMD",
     "QuantityInStock": 3
@@ -30,7 +30,7 @@
     "Name": "Intel Core i9-13900K",
     "Description": "13th Gen Intel processor offering unrivaled speed and multitasking performance.",
     "Price": 2799.96,
-    "PictureUrl": "/images/products/sb-core2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Processors",
     "Brand": "Intel",
     "QuantityInStock": 52
@@ -39,7 +39,7 @@
     "Name": "ASUS ROG Strix Z790-E",
     "Description": "High-end motherboard with advanced features for gaming and overclocking.",
     "Price": 1999.96,
-    "PictureUrl": "/images/products/sb-react1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Motherboards",
     "Brand": "ASUS",
     "QuantityInStock": 97
@@ -48,7 +48,7 @@
     "Name": "MSI MPG B650 Edge",
     "Description": "Reliable and feature-packed motherboard designed for AMD Ryzen processors.",
     "Price": 799.96,
-    "PictureUrl": "/images/products/sb-ts1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Motherboards",
     "Brand": "MSI",
     "QuantityInStock": 37
@@ -57,7 +57,7 @@
     "Name": "Corsair Vengeance DDR5 32GB",
     "Description": "High-speed DDR5 memory optimized for gaming and productivity.",
     "Price": 599.96,
-    "PictureUrl": "/images/products/hat-core1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Memory",
     "Brand": "Corsair",
     "QuantityInStock": 32
@@ -66,7 +66,7 @@
     "Name": "G.Skill Trident Z5 RGB 16GB",
     "Description": "Premium RGB DDR5 RAM with exceptional performance for enthusiasts.",
     "Price": 519.96,
-    "PictureUrl": "/images/products/hat-react1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Memory",
     "Brand": "G.Skill",
     "QuantityInStock": 6
@@ -75,7 +75,7 @@
     "Name": "Samsung 980 Pro 1TB NVMe SSD",
     "Description": "High-performance SSD with PCIe Gen4 technology for ultra-fast speeds.",
     "Price": 519.96,
-    "PictureUrl": "/images/products/hat-react2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Storage",
     "Brand": "Samsung",
     "QuantityInStock": 17
@@ -84,7 +84,7 @@
     "Name": "WD Black SN850 2TB NVMe SSD",
     "Description": "Top-tier NVMe SSD for extreme gaming and large storage needs.",
     "Price": 1199.96,
-    "PictureUrl": "/images/products/glove-code1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Storage",
     "Brand": "Western Digital",
     "QuantityInStock": 74
@@ -93,7 +93,7 @@
     "Name": "Seagate Barracuda 4TB HDD",
     "Description": "Reliable and spacious hard drive for storing massive amounts of data.",
     "Price": 359.96,
-    "PictureUrl": "/images/products/glove-code2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Storage",
     "Brand": "Seagate",
     "QuantityInStock": 19
@@ -102,7 +102,7 @@
     "Name": "Cooler Master Hyper 212",
     "Description": "Effective and budget-friendly air cooling solution for CPUs.",
     "Price": 159.96,
-    "PictureUrl": "/images/products/glove-react1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Cooling Systems",
     "Brand": "Cooler Master",
     "QuantityInStock": 77
@@ -111,7 +111,7 @@
     "Name": "NZXT Kraken X63",
     "Description": "Premium liquid cooler with RGB and enhanced performance for high-end builds.",
     "Price": 799.96,
-    "PictureUrl": "/images/products/glove-react2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Cooling Systems",
     "Brand": "NZXT",
     "QuantityInStock": 45
@@ -120,7 +120,7 @@
     "Name": "EVGA SuperNOVA 850W PSU",
     "Description": "Fully modular power supply delivering efficient and reliable power.",
     "Price": 599.96,
-    "PictureUrl": "/images/products/boot-redis1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Power Supplies",
     "Brand": "EVGA",
     "QuantityInStock": 49
@@ -129,7 +129,7 @@
     "Name": "Corsair RM750x PSU",
     "Description": "High-quality power supply with 80 PLUS Gold certification.",
     "Price": 519.96,
-    "PictureUrl": "/images/products/boot-core2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Power Supplies",
     "Brand": "Corsair",
     "QuantityInStock": 28
@@ -138,7 +138,7 @@
     "Name": "ASUS TUF Gaming GT501 Case",
     "Description": "Durable and spacious gaming case with excellent airflow.",
     "Price": 599.96,
-    "PictureUrl": "/images/products/boot-core1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Cases",
     "Brand": "ASUS",
     "QuantityInStock": 69
@@ -147,7 +147,7 @@
     "Name": "NZXT H510 Elite",
     "Description": "Compact mid-tower case with sleek design and advanced cable management.",
     "Price": 599.96,
-    "PictureUrl": "/images/products/boot-ang2.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Cases",
     "Brand": "NZXT",
     "QuantityInStock": 35
@@ -156,9 +156,774 @@
     "Name": "Phanteks Eclipse P500A",
     "Description": "High-performance case with superior airflow and extensive customization options.",
     "Price": 599.96,
-    "PictureUrl": "/images/products/boot-ang1.png",
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
     "Type": "Cases",
     "Brand": "Phanteks",
     "QuantityInStock": 27
+  },
+  {
+    "Name": "NZXT Kraken Z73 360mm AIO Liquid Cooler",
+    "Description": "Advanced liquid cooler with customizable LCD display and RGB lighting, designed for high-end gaming PCs.",
+    "Price": 1599.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "NZXT",
+    "QuantityInStock": 40
+  },
+  {
+    "Name": "HyperX Alloy FPS Pro Mechanical Keyboard",
+    "Description": "Compact and durable mechanical keyboard with Cherry MX switches, perfect for gamers who need portability.",
+    "Price": 399.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "HyperX",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "Intel Core i7-12700K",
+    "Description": "12-core processor designed for high-performance gaming and multitasking, offering great value for mid-range builds.",
+    "Price": 1999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Processors",
+    "Brand": "Intel",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "ASUS ROG Strix Z690-E Gaming WiFi Motherboard",
+    "Description": "Premium motherboard for Intel's 12th gen processors, featuring Wi-Fi 6E support, PCIe 5.0, and robust overclocking capabilities.",
+    "Price": 799.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "ASUS",
+    "QuantityInStock": 65
+  },
+  {
+    "Name": "Corsair iCUE 4000X RGB Mid Tower Case",
+    "Description": "Stylish RGB mid tower case with tempered glass panels and easy cable management, ideal for building a showcase gaming PC.",
+    "Price": 199.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "Corsair",
+    "QuantityInStock": 120
+  },
+  {
+    "Name": "Seagate FireCuda 530 2TB NVMe SSD",
+    "Description": "Fast and durable PCIe Gen 4 SSD, offering high read and write speeds for gaming, video editing, and intensive tasks.",
+    "Price": 999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Storage",
+    "Brand": "Seagate",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Razer BlackWidow V3 Mechanical Gaming Keyboard",
+    "Description": "Signature mechanical keyboard with Razer Green switches and full RGB lighting, built for fast and responsive gameplay.",
+    "Price": 399.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Razer",
+    "QuantityInStock": 110
+  },
+  {
+    "Name": "BenQ ZOWIE XL2546K 24.5-inch Gaming Monitor",
+    "Description": "Esports-focused 240Hz monitor with a 1ms response time, providing ultra-smooth visuals for competitive gaming.",
+    "Price": 1599.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "BenQ",
+    "QuantityInStock": 75
+  },
+  {
+    "Name": "Logitech G Pro Wireless Gaming Mouse",
+    "Description": "Wireless gaming mouse with HERO sensor, RGB lighting, and ultralight design, perfect for competitive esports.",
+    "Price": 599.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "Logitech",
+    "QuantityInStock": 130
+  },
+  {
+    "Name": "Turtle Beach Stealth 700 Gen 2 Wireless Headset",
+    "Description": "Wireless gaming headset with Superhuman Hearing and active noise cancellation, delivering immersive sound for gaming.",
+    "Price": 499.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "Turtle Beach",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "Kingston Fury Renegade 16GB (2 x 8GB) DDR4-3600",
+    "Description": "High-performance DDR4 memory kit, designed for overclocking and boosting gaming performance.",
+    "Price": 319.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Memory",
+    "Brand": "Kingston",
+    "QuantityInStock": 150
+  },
+  {
+    "Name": "MSI MPG X570 Gaming Edge WiFi Motherboard",
+    "Description": "Motherboard for AMD Ryzen processors, with Wi-Fi 6, PCIe 4.0 support, and enhanced cooling for overclocking.",
+    "Price": 499.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "MSI",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4-3200",
+    "Description": "Affordable and reliable DDR4 memory, perfect for budget gaming systems and mainstream applications.",
+    "Price": 159.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Memory",
+    "Brand": "Corsair",
+    "QuantityInStock": 200
+  },
+  {
+    "Name": "Cooler Master Hyper 212 Black Edition Air Cooler",
+    "Description": "Efficient air cooler with a sleek black design, providing excellent thermal performance for mid-range gaming systems.",
+    "Price": 149.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "Cooler Master",
+    "QuantityInStock": 140
+  },
+  {
+    "Name": "Gigabyte AORUS RTX 3070 Master",
+    "Description": "RTX 3070 graphics card with advanced cooling and exceptional performance for 1440p and 4K gaming.",
+    "Price": 7999.84,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "Gigabyte",
+    "QuantityInStock": 65
+  },
+  {
+    "Name": "EVGA SuperNOVA 850 G5 850W PSU",
+    "Description": "Premium power supply with 80+ Gold certification, ensuring reliable and efficient power delivery for high-performance gaming systems.",
+    "Price": 279.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Power Supplies",
+    "Brand": "EVGA",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "NZXT H510 Flow Mid Tower Case",
+    "Description": "Mid tower case with improved airflow, featuring tempered glass and easy cable management for clean, optimized builds.",
+    "Price": 199.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "NZXT",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Acer Predator XB273K 27-inch Gaming Monitor",
+    "Description": "4K UHD IPS gaming monitor with a 144Hz refresh rate and NVIDIA G-Sync for smooth gameplay and stunning visuals.",
+    "Price": 1999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "Acer",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Bose QuietComfort 35 II Wireless Headphones",
+    "Description": "Premium wireless headphones with noise-canceling technology, designed for immersive sound and comfort during long gaming sessions.",
+    "Price": 599.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "Bose",
+    "QuantityInStock": 55
+  },
+  {
+    "Name": "ASRock Z590 Taichi Motherboard",
+    "Description": "Premium motherboard for Intel 10th and 11th gen processors, designed for gamers and enthusiasts with robust overclocking support.",
+    "Price": 799.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "ASRock",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "Razer Nari Ultimate Wireless Gaming Headset",
+    "Description": "Wireless headset with haptic feedback for a more immersive gaming experience, offering THX Spatial Audio and long battery life.",
+    "Price": 699.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "Razer",
+    "QuantityInStock": 45
+  },
+  {
+    "Name": "Corsair K95 RGB Platinum XT Mechanical Keyboard",
+    "Description": "Premium mechanical keyboard with Cherry MX switches, dedicated media controls, and customizable RGB lighting.",
+    "Price": 549.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Corsair",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "MSI GeForce RTX 3080 Gaming X Trio",
+    "Description": "High-performance graphics card for 4K gaming, equipped with advanced cooling and RGB lighting for enhanced aesthetics.",
+    "Price": 9599.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "MSI",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4-3600",
+    "Description": "High-speed memory kit designed for demanding gaming and productivity tasks with solid reliability.",
+    "Price": 799.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Memory",
+    "Brand": "Corsair",
+    "QuantityInStock": 130
+  },
+  {
+    "Name": "Fractal Design Meshify C Mid Tower Case",
+    "Description": "Compact case with a sleek mesh front panel for optimal airflow and a clean, minimalistic design.",
+    "Price": 179.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "Fractal Design",
+    "QuantityInStock": 140
+  },
+  {
+    "Name": "HyperX Pulsefire FPS Pro RGB Gaming Mouse",
+    "Description": "Precision gaming mouse with RGB lighting and customizable buttons, designed for FPS and MOBA games.",
+    "Price": 199.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "HyperX",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Corsair RM850x 850W 80+ Gold PSU",
+    "Description": "Reliable and efficient 850W power supply with 80+ Gold certification, fully modular for clean and easy cable management.",
+    "Price": 219.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Power Supplies",
+    "Brand": "Corsair",
+    "QuantityInStock": 110
+  },
+  {
+    "Name": "ASUS TUF Gaming VG27AQ 27-inch Monitor",
+    "Description": "Quad HD monitor with a 165Hz refresh rate and G-Sync compatibility, perfect for fast-paced gaming.",
+    "Price": 899.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "ASUS",
+    "QuantityInStock": 75
+  },
+  {
+    "Name": "Logitech G915 LIGHTSPEED Wireless RGB Mechanical Keyboard",
+    "Description": "Ultra-slim wireless mechanical keyboard with low-profile keys, designed for gamers who prefer a minimalist design.",
+    "Price": 699.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Logitech",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "Razer Kraken V3 Pro RGB Wireless Gaming Headset",
+    "Description": "Wireless gaming headset with THX Spatial Audio, haptic feedback, and immersive RGB lighting.",
+    "Price": 799.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "Razer",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "G.Skill Ripjaws V 64GB (2 x 32GB) DDR4-3600",
+    "Description": "Premium 64GB memory kit designed for extreme performance in content creation, gaming, and multitasking.",
+    "Price": 1199.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Memory",
+    "Brand": "G.Skill",
+    "QuantityInStock": 50
+  },
+  {
+    "Name": "Cooler Master MasterLiquid ML360R RGB AIO Cooler",
+    "Description": "360mm AIO cooler with RGB fans and pump, designed for high-performance cooling in demanding gaming builds.",
+    "Price": 299.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "Cooler Master",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "SteelSeries Arctis Pro Wireless Gaming Headset",
+    "Description": "Wireless headset with high-fidelity audio, DTS Headphone:X v2.0 surround sound, and long-lasting battery life.",
+    "Price": 699.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "SteelSeries",
+    "QuantityInStock": 75
+  },
+  {
+    "Name": "Corsair K70 RGB MK.2 Mechanical Gaming Keyboard",
+    "Description": "Full-size mechanical keyboard with Cherry MX switches and customizable RGB lighting for a personalized setup.",
+    "Price": 449.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Corsair",
+    "QuantityInStock": 95
+  },
+  {
+    "Name": "ASRock Radeon RX 6800 XT Phantom Gaming",
+    "Description": "Powerful graphics card with 16GB of GDDR6 memory and support for high-frame-rate 1440p and 4K gaming.",
+    "Price": 7999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "ASRock",
+    "QuantityInStock": 45
+  },
+  {
+    "Name": "Sabrent Rocket 4 Plus 1TB PCIe Gen 4 NVMe SSD",
+    "Description": "High-speed PCIe Gen 4 SSD, designed for demanding applications and gaming, offering ultra-fast read and write speeds.",
+    "Price": 549.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Storage",
+    "Brand": "Sabrent",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Logitech G Pro X Superlight Wireless Gaming Mouse",
+    "Description": "Ultra-lightweight wireless gaming mouse with HERO sensor and customizable RGB lighting, designed for esports professionals.",
+    "Price": 699.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "Logitech",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "EVGA GeForce RTX 3070 XC3 Ultra Gaming",
+    "Description": "RTX 3070 graphics card with enhanced cooling and factory overclocking, built for 1440p and 4K gaming experiences.",
+    "Price": 7299.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "EVGA",
+    "QuantityInStock": 55
+  },
+  {
+    "Name": "MSI MAG Forge 100R Mid Tower Case",
+    "Description": "Mid tower case with airflow optimization and RGB fans for vibrant lighting and efficient cooling.",
+    "Price": 129.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "MSI",
+    "QuantityInStock": 150
+  },
+  {
+    "Name": "Razer DeathAdder V2 Gaming Mouse",
+    "Description": "Ergonomic and precise gaming mouse with Razer Optical Mouse Switches and RGB lighting for a customized setup.",
+    "Price": 299.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "Razer",
+    "QuantityInStock": 130
+  },
+  {
+    "Name": "Gigabyte AORUS AD27QD 27-inch Gaming Monitor",
+    "Description": "Quad HD monitor with 165Hz refresh rate and HDR support, providing an immersive experience for gaming and media consumption.",
+    "Price": 999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "Gigabyte",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "EVGA SuperNOVA 1000 G5 1000W PSU",
+    "Description": "Premium 1000W power supply with 80+ Gold efficiency and fully modular design for superior cable management.",
+    "Price": 349.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Power Supplies",
+    "Brand": "EVGA",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "ASUS ROG Swift PG259QN 24.5-inch Gaming Monitor",
+    "Description": "Fastest 360Hz esports monitor with ultra-low latency and NVIDIA G-Sync for fluid gameplay.",
+    "Price": 1999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "ASUS",
+    "QuantityInStock": 40
+  },
+  {
+    "Name": "MSI MPG Z590 GAMING EDGE WIFI",
+    "Description": "High-performance motherboard with WiFi 6, PCIe 4.0, and support for 11th gen Intel processors for gaming enthusiasts.",
+    "Price": 479.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "MSI",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "Corsair iCUE H115i Elite Capellix AIO Liquid Cooler",
+    "Description": "240mm AIO liquid cooler with RGB fans and a powerful pump for efficient cooling of high-end processors.",
+    "Price": 249.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "Corsair",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Sabrent Rocket 4 Plus 2TB PCIe Gen 4 NVMe SSD",
+    "Description": "Ultra-fast PCIe Gen 4 SSD with blazing read and write speeds, perfect for high-performance applications and gaming.",
+    "Price": 999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Storage",
+    "Brand": "Sabrent",
+    "QuantityInStock": 50
+  },
+  {
+    "Name": "Samsung Odyssey G7 32-inch Curved QHD Gaming Monitor",
+    "Description": "Curved gaming monitor with 240Hz refresh rate, 1ms response time, and Quantum Dot technology for vibrant colors.",
+    "Price": 999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "Samsung",
+    "QuantityInStock": 45
+  },
+  {
+    "Name": "NZXT Kraken Z63 280mm AIO Cooler",
+    "Description": "Customizable liquid cooler with a 2.36-inch LCD display that shows real-time system stats and beautiful RGB lighting.",
+    "Price": 319.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "NZXT",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "Logitech G502 LIGHTSPEED Wireless Gaming Mouse",
+    "Description": "Wireless gaming mouse with HERO sensor and customizable weight system for an ultra-responsive experience.",
+    "Price": 129.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "Logitech",
+    "QuantityInStock": 120
+  },
+  {
+    "Name": "Corsair Vengeance LPX 64GB (4 x 16GB) DDR4-3600",
+    "Description": "Ultra-fast 64GB memory kit with heat spreaders for high-performance gaming and content creation.",
+    "Price": 1399.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Memory",
+    "Brand": "Corsair",
+    "QuantityInStock": 50
+  },
+  {
+    "Name": "Thermaltake Toughpower Grand RGB 850W PSU",
+    "Description": "850W power supply with 80+ Gold certification, RGB fan, and fully modular cables for easy cable management.",
+    "Price": 209.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Power Supplies",
+    "Brand": "Thermaltake",
+    "QuantityInStock": 95
+  },
+  {
+    "Name": "ASRock B550 Steel Legend Motherboard",
+    "Description": "ATX motherboard with PCIe 4.0, robust power delivery, and support for AMD Ryzen 5000 series processors.",
+    "Price": 199.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "ASRock",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Cooler Master MasterBox Q300L Compact Case",
+    "Description": "Small and versatile case with excellent airflow and a modular design, perfect for compact gaming PCs.",
+    "Price": 79.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "Cooler Master",
+    "QuantityInStock": 150
+  },
+  {
+    "Name": "Razer Nari Ultimate Wireless Gaming Headset",
+    "Description": "Wireless gaming headset with haptic feedback and THX Spatial Audio for an immersive gaming experience.",
+    "Price": 379.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "Razer",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "ZOTAC GAMING GeForce RTX 3060 Twin Edge OC",
+    "Description": "RTX 3060 graphics card with 12GB of GDDR6 memory and dual fans for efficient cooling during gaming sessions.",
+    "Price": 5399.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "ZOTAC",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "SteelSeries Rival 600 Dual Sensor Gaming Mouse",
+    "Description": "Gaming mouse with dual sensor system for precise tracking and split-trigger buttons for fast response.",
+    "Price": 149.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "SteelSeries",
+    "QuantityInStock": 115
+  },
+  {
+    "Name": "Samsung 970 EVO Plus 1TB NVMe M.2 SSD",
+    "Description": "Super-fast NVMe SSD with read/write speeds up to 3500/3300 MB/s, ideal for gaming and content creation.",
+    "Price": 249.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Storage",
+    "Brand": "Samsung",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Gigabyte Z490 AORUS XTREME WATERFORCE",
+    "Description": "Flagship motherboard with custom liquid cooling, designed for extreme overclocking and 10th/11th gen Intel processors.",
+    "Price": 999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "Gigabyte",
+    "QuantityInStock": 50
+  },
+  {
+    "Name": "Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard",
+    "Description": "Premium mechanical keyboard with Cherry MX switches and six programmable macro keys for advanced gamers.",
+    "Price": 249.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Corsair",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "HyperX Alloy FPS Pro Mechanical Gaming Keyboard",
+    "Description": "Compact mechanical keyboard with Cherry MX mechanical key switches and red LED backlighting for a portable, high-quality gaming experience.",
+    "Price": 109.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "HyperX",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Be Quiet! Dark Rock Pro 4 CPU Cooler",
+    "Description": "High-performance air cooler with dual tower design and exceptional noise reduction for powerful processors.",
+    "Price": 179.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "Be Quiet!",
+    "QuantityInStock": 110
+  },
+  {
+    "Name": "MSI Optix MAG272C 27-inch Curved Gaming Monitor",
+    "Description": "27-inch curved monitor with 165Hz refresh rate and 1ms response time, perfect for competitive gaming.",
+    "Price": 289.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "MSI",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "EVGA GeForce GTX 1660 Ti SC Ultra Gaming",
+    "Description": "GTX 1660 Ti graphics card with 6GB GDDR5 memory, designed for high performance in 1080p gaming.",
+    "Price": 1999.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "EVGA",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Cooler Master MasterLiquid ML240L RGB AIO Cooler",
+    "Description": "240mm AIO liquid cooler with RGB lighting and powerful cooling, perfect for mid-range builds.",
+    "Price": 139.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "Cooler Master",
+    "QuantityInStock": 120
+  },
+  {
+    "Name": "Corsair RM850x 850W 80+ Gold Fully Modular PSU",
+    "Description": "850W fully modular power supply with 80+ Gold certification for high efficiency and low noise.",
+    "Price": 179.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Power Supplies",
+    "Brand": "Corsair",
+    "QuantityInStock": 130
+  },
+  {
+    "Name": "Fractal Design Meshify C ATX Case",
+    "Description": "Compact ATX case with a sleek design and high airflow capabilities for powerful builds.",
+    "Price": 89.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "Fractal Design",
+    "QuantityInStock": 150
+  },
+  {
+    "Name": "Intel Core i9-11900K 8-Core Processor",
+    "Description": "High-performance 8-core processor with turbo boost up to 5.3 GHz, ideal for demanding applications and gaming.",
+    "Price": 649.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Processors",
+    "Brand": "Intel",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "ASUS TUF Gaming GeForce RTX 3070",
+    "Description": "RTX 3070 graphics card with 8GB GDDR6 memory and enhanced cooling design, perfect for 4K gaming.",
+    "Price": 1599.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "ASUS",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Logitech G Pro X Superlight Wireless Gaming Mouse",
+    "Description": "Ultra-lightweight wireless gaming mouse with HERO sensor for exceptional accuracy and speed.",
+    "Price": 179.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Mice",
+    "Brand": "Logitech",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Acer Predator X34 P 34-inch Curved Monitor",
+    "Description": "Curved ultrawide monitor with 120Hz refresh rate and NVIDIA G-SYNC for seamless gaming.",
+    "Price": 1199.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Monitors",
+    "Brand": "Acer",
+    "QuantityInStock": 40
+  },
+  {
+    "Name": "Seagate FireCuda 530 1TB PCIe Gen4 SSD",
+    "Description": "High-speed PCIe Gen4 NVMe SSD with read/write speeds up to 7300/6900 MB/s for ultra-fast gaming and loading times.",
+    "Price": 239.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Storage",
+    "Brand": "Seagate",
+    "QuantityInStock": 75
+  },
+  {
+    "Name": "Razer Huntsman Elite RGB Gaming Keyboard",
+    "Description": "Mechanical keyboard with Razer Opto-Mechanical switches and customizable RGB lighting for a premium gaming experience.",
+    "Price": 249.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Razer",
+    "QuantityInStock": 65
+  },
+  {
+    "Name": "Cooler Master Hyper 212 RGB CPU Cooler",
+    "Description": "Air cooler with RGB fan and four heat pipes for effective heat dissipation, suitable for mainstream gaming CPUs.",
+    "Price": 49.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Coolers",
+    "Brand": "Cooler Master",
+    "QuantityInStock": 150
+  },
+  {
+    "Name": "NZXT H510 Elite ATX Mid Tower Case",
+    "Description": "Mid tower case with tempered glass panels and premium cable management for a clean build.",
+    "Price": 139.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "NZXT",
+    "QuantityInStock": 80
+  },
+  {
+    "Name": "MSI GeForce RTX 3060 Ti Ventus 2X OC",
+    "Description": "RTX 3060 Ti graphics card with 8GB GDDR6 memory, offering high frame rates and great performance for 1440p gaming.",
+    "Price": 1399.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "MSI",
+    "QuantityInStock": 50
+  },
+  {
+    "Name": "Corsair K70 RGB MK.2 Mechanical Gaming Keyboard",
+    "Description": "RGB mechanical keyboard with Cherry MX switches and a durable aluminum frame for gaming performance.",
+    "Price": 179.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Corsair",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "EVGA SuperNOVA 1000 G5 1000W 80+ Gold PSU",
+    "Description": "Fully modular 1000W power supply with 80+ Gold certification and quiet, efficient operation.",
+    "Price": 249.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Power Supplies",
+    "Brand": "EVGA",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "Thermaltake Core P3 ATX Open Frame Case",
+    "Description": "Open-frame case with a unique design and excellent airflow for high-performance gaming setups.",
+    "Price": 129.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "PC Cases",
+    "Brand": "Thermaltake",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "Logitech G915 TKL Tenkeyless RGB Mechanical Keyboard",
+    "Description": "Tenkeyless mechanical keyboard with RGB lighting and low-profile GL mechanical switches for responsive gaming.",
+    "Price": 229.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Logitech",
+    "QuantityInStock": 120
+  },
+  {
+    "Name": "Sennheiser GSP 600 Wired Gaming Headset",
+    "Description": "Wired gaming headset with high-quality audio, noise-canceling microphone, and comfortable ear cups.",
+    "Price": 299.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Headsets",
+    "Brand": "Sennheiser",
+    "QuantityInStock": 75
+  },
+  {
+    "Name": "Gigabyte AORUS X570 Master Motherboard",
+    "Description": "X570 motherboard with PCIe 4.0 support, robust power delivery, and advanced thermal design for high-performance CPUs.",
+    "Price": 289.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Motherboards",
+    "Brand": "Gigabyte",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "Corsair MP600 1TB Gen 4 PCIe NVMe SSD",
+    "Description": "1TB PCIe Gen 4 SSD with blazing-fast speeds up to 4950MB/s for fast boot times and load speeds.",
+    "Price": 159.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Storage",
+    "Brand": "Corsair",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "Razer BlackWidow V3 Mechanical Gaming Keyboard",
+    "Description": "Mechanical keyboard with Razer Green switches and full-spectrum RGB backlighting for immersive gaming.",
+    "Price": 119.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Keyboards",
+    "Brand": "Razer",
+    "QuantityInStock": 110
+  },
+  {
+    "Name": "AMD Ryzen 7 5800X 8-Core Processor",
+    "Description": "8-core, 16-thread processor with Precision Boost 2 for superior gaming and multitasking performance.",
+    "Price": 499.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Processors",
+    "Brand": "AMD",
+    "QuantityInStock": 65
+  },
+  {
+    "Name": "MSI GeForce GTX 1650 D6 Ventus XS OC",
+    "Description": "GTX 1650 graphics card with 4GB GDDR6 memory, offering great performance for budget gaming builds.",
+    "Price": 799.96,
+    "PictureUrl": "https://i.postimg.cc/CMkPsbJY/imagem-2025-01-10-201733767.png",
+    "Type": "Graphics Cards",
+    "Brand": "MSI",
+    "QuantityInStock": 100
   }
 ]
