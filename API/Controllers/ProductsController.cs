@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Core.Entities;
 using Core.Especifications;
 using Core.Interfaces;
@@ -103,13 +99,17 @@ namespace API.Controllers
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
         {
-            return Ok();
+            var spec = new BrandListSpecification();
+
+            return Ok(await repo.ListAsync(spec));
         }
 
         [HttpGet("Types")]
         public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
         {
-            return Ok();
+            var spec = new TypeListSpecification();
+
+            return Ok(await repo.ListAsync(spec));
         }
 
 
