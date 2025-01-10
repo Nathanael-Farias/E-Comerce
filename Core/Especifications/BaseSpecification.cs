@@ -12,5 +12,18 @@ namespace Core.Especifications
       protected BaseSpecification() : this(null) {}
 
         public Expression<Func<G, bool>>? Criteria => criteria;
+
+        public Expression<Func<G, object>>? OrderBy {get; private set;}
+
+        public Expression<Func<G, object>>? OrderByDescending  {get; private set;}
+
+        protected void AddOrderBy(Expression<Func<G, object>> orderByExpression)
+        {
+          OrderBy = orderByExpression;
+        }
+        protected void AddOrderByDescending(Expression<Func<G, object>> orderByDescExpression)
+        {
+          OrderByDescending = orderByDescExpression;
+        }
     }
 }
