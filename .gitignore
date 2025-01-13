@@ -5,9 +5,6 @@
 **/Release/
 .vscode/
 
-
-
-
 # Arquivos gerados automaticamente pelo .NET e Visual Studio
 *.exe
 *.dll
@@ -49,3 +46,89 @@ packages/
 # Arquivos gerados por outros sistemas de desenvolvimento
 *.class
 *.pyc
+
+# Diretórios e arquivos relacionados ao cliente
+client/ssl/
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs e editores
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios e arquivos relacionados ao cliente (compilados e Node)
+# Compiled output
+/client/dist
+/client/tmp
+/client/out-tsc
+/client/bazel-out
+
+# Node
+/client/node_modules
+/client/npm-debug.log
+/client/yarn-error.log
+
+# IDEs e editores
+/client/.idea/
+/client/.project
+/client/.classpath
+/client/.c9/
+/client/*.launch
+/client/.settings/
+/client/*.sublime-workspace
+
+# Visual Studio Code
+/client.vscode/*
+/client!.vscode/settings.json
+/client!.vscode/tasks.json
+/client!.vscode/launch.json
+/client!.vscode/extensions.json
+/client.history/*
+
+# Miscellaneous
+/client/.angular/cache
+/client.sass-cache/
+/client/connect.lock
+/client/coverage
+/client/libpeerconnection.log
+/client/testem.log
+/client/typings
+
+# Arquivos de sistema
+/client.DS_Store
+/client.Thumbs.db
