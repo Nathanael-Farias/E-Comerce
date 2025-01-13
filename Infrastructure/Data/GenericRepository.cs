@@ -15,6 +15,15 @@ namespace Infrastructure.Data
             context.Set<G>().Add(entity);
         }
 
+        public async Task<int> CountAsync(ISpecification<G> spec)
+        {
+            var query = context.Set<G>().AsQueryable();
+
+            query = spec.ApplyCriteria(query);
+
+            return await query.CountAsync();
+        }
+
         public bool Exists(int id)
         {
             return context.Set<G>().Any(x => x.Id == id);
