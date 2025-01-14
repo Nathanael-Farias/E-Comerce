@@ -1,7 +1,9 @@
-<!doctype html>
-<h1 class="custom-title">Welcome to {{title}}</h1>
-<div class="button-container">
-    <button class="nav-button">Home</button>
-    <button class="nav-button">Shop</button>
-    <button class="nav-button">Cart</button>
-  </div>
+<!DOCTYPE html>
+<app-header></app-header>
+<div class="container mt-6">
+  <ul>
+    @for (product of products; track product.id) {
+    <li>{{ product.name }}</li>
+    }
+  </ul>
+</div>
