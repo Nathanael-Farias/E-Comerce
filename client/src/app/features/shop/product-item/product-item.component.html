@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+@if (product) {
+<mat-card appearance="raised" class="product-card">
+  <img
+    src="{{ product.pictureUrl }}"
+    alt="image of {{ product.name }}"
+    class="product-image"
+  />
+  <mat-card-content class="product-content">
+    <h2 class="product-title">{{ product.name }}</h2>
+    <p class="product-price">{{ product.price | currency }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-stroked-button class="add-to-cart-btn">
+      <mat-icon>add_shopping_cart</mat-icon>
+      Add to cart
+    </button>
+  </mat-card-actions>
+</mat-card>
+
+}
