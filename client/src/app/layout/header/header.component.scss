@@ -3,6 +3,8 @@
   height: 24px;
   font-size: 14px;
   line-height: 24px;
+  background-color: #8400ff;
+  color: rgb(0, 0, 0);
 }
 
 .custom-badge .mat-icon {
@@ -13,6 +15,7 @@
 
 .app-header {
   border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 100px;
   padding: 0.75rem;
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
