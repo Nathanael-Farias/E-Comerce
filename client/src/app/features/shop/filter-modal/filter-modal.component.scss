@@ -1,0 +1,30 @@
+.filter-container {
+  background-color: #fcfcfc;
+}
+
+
+mat-divider {
+  margin: 20px 0;
+}
+
+mat-selection-list {
+  max-height: 300px;
+  overflow-y: auto;
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #8400ff;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 2px;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: #8400ff #f1f1f1;
+}
