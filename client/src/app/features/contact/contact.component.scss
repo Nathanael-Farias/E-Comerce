@@ -1,0 +1,99 @@
+$black: #000;
+$white: #fff;
+$purple: #8400ff;
+
+.contact-hero {
+  background-color: $black;
+  color: $white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+
+  .contact-content {
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 20px;
+
+  .form-container {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: 2.2rem;
+      color: $purple;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input,
+      textarea {
+        padding: 12px;
+        font-size: 1rem;
+        border: 1px solid $purple;
+        border-radius: 8px;
+      }
+
+      button {
+        background-color: $purple;
+        color: $white;
+        font-weight: bold;
+        padding: 12px;
+        border-radius: 50px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: darken($purple, 10%);
+        }
+      }
+    }
+  }
+}
+
+.contact-social {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 20px;
+
+  a {
+    color: $purple;
+    font-size: 2rem;
+  }
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
