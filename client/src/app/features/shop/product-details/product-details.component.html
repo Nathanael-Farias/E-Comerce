@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<div
+  *ngIf="isContentReady"
+  class="hero fade-in"
+  [ngClass]="{ visible: isVisible }"
+>
+  @if (product) {
+
+  <section class="product-section">
+    <div class="product-container">
+      <div class="product-image-container">
+        <img
+          src="{{ product.pictureUrl }}"
+          alt="image of {{ product.name }}"
+          class="product-image"
+        />
+      </div>
+      
+      <div class="product-info">
+        <h2 class="product-title">{{ product.name }}</h2>
+
+        <p class="product-price">{{ product.price | currency }}</p>
+
+        <button mat-stroked-button class="add-to-cart-btn">
+            <mat-icon>add_shopping_cart</mat-icon>
+            Add to Cart
+          </button>
+          
+        <p class="quantity-in-stock">Quantity in Stock: {{ product.quantityInStock }}</p> 
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+
+    <p class="product-description">{{ product.description }}</p>
+    
+  </section>
+
+  }
+</div>
