@@ -1,0 +1,55 @@
+<div
+  *ngIf="isContentReady"
+  class="hero fade-in"
+  [ngClass]="{ visible: isVisible }"
+>
+  <div class="contact-hero">
+    <div class="contact-content">
+      <h1>Contact Us</h1>
+      <p>If you have any questions, feel free to reach out to us!</p>
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <div class="form-container">
+      <h3>Get in Touch</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="contact-social">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+        alt="Facebook"
+        class="social-icon"
+      />
+    </a>
+    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+      <img
+        src="https://i.postimg.cc/V6XbV5Y0/imagem-2025-01-16-045449680.png"
+        alt="Twitter"
+        class="social-icon"
+      />
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+        alt="Instagram"
+        class="social-icon"
+      />
+    </a>
+    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+      <img
+        src="https://i.postimg.cc/hvwM1fMz/imagem-2025-01-16-045332085.png"
+        alt="LinkedIn"
+        class="social-icon"
+      />
+    </a>
+  </div>
+</div>
