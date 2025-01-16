@@ -19,6 +19,18 @@ $customTheme: mat.define-theme();
 body {
   height: 100vh;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
 
 .container {
   @apply mx-auto max-w-screen-2xl;
