@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<div
+  *ngIf="isContentReady"
+  class="hero fade-in"
+  [ngClass]="{ visible: isVisible }"
+>
+  <div class="hero-content">
+    <h1>Welcome to Cry Tech</h1>
+    <p>The best hardware and gaming products for you!</p>
+    <button
+      mat-raised-button
+      color="accent"
+      class="shop-now-btn"
+      routerLink="/shop"
+    >
+      Shop Now
+    </button>
+  </div>
+</div>
+
+<section
+  *ngIf="isContentReady"
+  class="benefits fade-in"
+  [ngClass]="{ visible: isVisible }"
+>
+  <div class="benefit">
+    <mat-icon>build</mat-icon>
+    <h3>High Performance</h3>
+    <p>Hardware designed to provide maximum gaming performance.</p>
+  </div>
+  <div class="benefit">
+    <mat-icon>security</mat-icon>
+    <h3>Security</h3>
+    <p>Protection against overheating and guaranteed durability in gaming gear.</p>
+  </div>
+  <div class="benefit">
+    <mat-icon>speed</mat-icon>
+    <h3>Speed</h3>
+    <p>
+      With top-tier components, your gaming experience has never been faster.
+    </p>
+  </div>
+</section>
+
+<footer
+  *ngIf="isContentReady"
+  class="fade-in"
+  [ngClass]="{ visible: isVisible }"
+>
+  <p>&copy; 2025 Cry Tech. All rights reserved.</p>
+</footer>
