@@ -16,6 +16,7 @@ import { ShopParams } from '../../shared/models/shopParams';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { Pagination } from '../../shared/models/pagination';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-shop',
@@ -29,6 +30,7 @@ import { FormsModule } from '@angular/forms';
     MatMenuTrigger,
     MatPaginator,
     FormsModule,
+    CommonModule,
   ],
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.scss',
@@ -48,6 +50,13 @@ export class ShopComponent implements OnInit {
   pageSizeOptions = [5, 10, 15, 20];
 
   ngOnInit(): void {
+    setTimeout(() => {
+      this.isVisible = true;
+    }, 500);
+
+    setTimeout(() => {
+      this.isContentReady = true;
+    }, 100);
     this.initializeShop();
   }
   initializeShop() {
@@ -55,6 +64,8 @@ export class ShopComponent implements OnInit {
     this.shopService.getTypes();
     this.getProducts();
   }
+  isVisible: boolean = false;
+  isContentReady: boolean = false;
 
   getProducts() {
     this.shopService.getProducts(this.shopParams).subscribe({
