@@ -1,0 +1,85 @@
+$black: #000;
+$white: #fff;
+$purple: #8400ff;
+
+.hero {
+  background-color: $black;
+  color: $white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  .hero-content {
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .shop-now-btn {
+      background-color: $purple;
+      color: $white;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 12px 24px;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: darken($purple, 10%);
+      }
+    }
+  }
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+
+  .benefit {
+    text-align: center;
+    width: 2000px;
+
+    mat-icon {
+      color: $purple;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: $purple;
+      font-size: 1.8rem;
+      margin-bottom: 100px;
+    }
+
+    p {
+      color: $black;
+      font-size: 1rem;
+    }
+  }
+}
+footer {
+  background-color: #8400ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  position: relative;
+}
+.home-div {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
