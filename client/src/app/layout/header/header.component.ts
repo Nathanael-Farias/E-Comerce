@@ -2,12 +2,33 @@ import { Component } from '@angular/core';
 import { MatIcon } from '@angular/material/icon';
 import { MatButton } from '@angular/material/button';
 import { MatBadge } from '@angular/material/badge';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [MatIcon, MatButton, MatBadge],
+  imports: [
+    MatIcon,
+    MatButton,
+    MatBadge,
+    RouterLink,
+    RouterLinkActive,
+    CommonModule,
+  ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  isVisible = false;
+  isContentReady: boolean = false;
+  ngOnInit() {
+    setTimeout(() => {
+      this.isVisible = true;
+    }, 500);
+
+    setTimeout(() => {
+      this.isContentReady = true;
+    }, 100);
+  }
+}
