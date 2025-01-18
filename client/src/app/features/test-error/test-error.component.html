@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<div class="mt-5 flex justify-center gap-4">
+  <button mat-stroked-button (click)="get500Error()">Test 500 error</button>
+  <button mat-stroked-button (click)="get404Error()">Test 404 error</button>
+  <button mat-stroked-button (click)="get400Error()">Test 400 error</button>
+  <button mat-stroked-button (click)="get401Error()">Test 401 error</button>
+  <button mat-stroked-button (click)="get400ValidationError()">
+    Test validation error
+  </button>
+</div>
+@if (validationErrors) {
+<div class="error-container">
+  <ul class="error-list">
+    @for (error of validationErrors; track $index) {
+    <li class="error-item">{{ error }}</li>
+    }
+  </ul>
+</div>
+}
