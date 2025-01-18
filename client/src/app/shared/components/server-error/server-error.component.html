@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<div class="container">
+  <h1>Oops! We encountered an internal server error</h1>
+  @if (error) {
+  <h4>Error: {{ error.message }}</h4>
+  <p>This error comes directly from the server, it’s not an Angular issue</p>
+  <p>What to do next?</p>
+  <ol>
+    <li>
+      Check the network tab in your browser's DevTools to see what's going on
+    </li>
+    <li>
+      Try reproducing the error in Postman. If the same error occurs, it’s
+      probably not an Angular issue, so start looking into the backend
+    </li>
+  </ol>
+  <h5>Error details</h5>
+  <mat-card>
+    <code>{{ error.details }}</code>
+  </mat-card>
+  <p class="text-sm">
+    Tip: If you need help, share the stack trace with your team or the backend
+    folks. They might already know what’s causing it!
+  </p>
+  }
+</div>
