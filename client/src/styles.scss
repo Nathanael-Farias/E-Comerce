@@ -43,3 +43,19 @@ body {
 button.match-input-height {
   height: var(--mat-form-field-container-height) !important;
 }
+
+.mat-mdc-snack-bar-container.snack-error {
+  --mdc-snackbar-container-color: #ffffff;
+  --mat-snackbar-bar-button-color: #000000;
+  --mdc-snackbar-supporting-text-color: #7d00fa;
+}
+
+.mat-mdc-snack-bar-container.snack-sucess {
+  --mdc-snackbar-container-color: #ffffff;
+  --mat-snackbar-bar-button-color: #000000;
+  --mdc-snackbar-supporting-text-color: #64fa00;
+}
+
+.mat-mdc-snack-bar-container {
+  animation: fadeIn 0.3s ease-out, fadeOut 0.3s ease-in;
+}
