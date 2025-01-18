@@ -5,7 +5,7 @@
   class="hero fade-in"
   [ngClass]="{ visible: isVisible }"
 >
-  <header class="app-header">
+  <header class="app-header max-h-20">
     <div class="app-header-container">
       <img
         routerLink="/"
@@ -28,3 +28,6 @@
     </div>
   </header>
 </div>
+@if (busyService.loading) {
+<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+}
