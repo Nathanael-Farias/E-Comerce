@@ -1,0 +1,27 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.error-icon {
+  transform: scale(3);
+}
+
+.error-content {
+  text-align: center;
+}
+
+.error-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 16px;
+}
+
+.error-description {
+  font-size: 1.125rem;
+  color: #4b5563;
+  margin-top: 8px;
+}
